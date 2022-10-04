@@ -1,0 +1,49 @@
+# Algorithm
+# =========
+# define prog Languages
+# split it into separate words
+# make the program pick a random word
+# and store it in a var pickedLang
+# Display a message to the user
+# telling him to guess a word
+# and give him a hint
+# display dashes which indicate a hidden word
+# calculate number of choices(len of word + 2)
+# declare a won var and assign it to false
+# declare a lettersGuessed var
+# to store the letters that user guessed
+# while there are chances and user didn't win:
+# do the following
+# display a message to the user
+# infroming him how many chances he has left
+# and that he will lose chances only
+# on wrong guesses
+# display a message to the user
+# telling him to guess a letter
+# and store that letter in a variable
+# if that letter is a decimal number
+# tell him to guess only a letter or 
+# a special char
+# elif len of guess is > 1
+# tell him to enter only a single letter
+# elif guess is in lettersGuessed
+# tell him you already guessed that letter
+# elif guess is in pickedLang
+# calculate number of appearences of that letter
+# save the guess with the number of it's appearences in the lettersGuessed var
+# loop on pickedLang and display
+# the letter if it does exist and the user
+# hasn't guessed the whole word already
+# and if it doesn't exist display a dash instead
+# and in case user has guessed all word correctly
+# display a winning message to him
+# set won var to true
+# which means while loop will terminate
+# and won var is true
+# if guess is not in pickedLang
+# display the current situation
+# and decrement chances by one
+# after while loop ends
+# if won var is false and chances == 0
+# display a losing message to user
+# and tell him what the word was
